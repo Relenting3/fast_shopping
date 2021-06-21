@@ -1,0 +1,26 @@
+@import 'variables';
+
+html {
+  font-weight: normal;
+  font-size: $fontSize;
+}
+
+@font-face{
+	font-family: 'Roboto-Medium';
+	src: url('../assets/fonts/Roboto-Medium.ttf');
+}
+
+p {
+	margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+	background-color: $white;
+	font-family: "Roboto-Medium";
+  margin: 0;
+}
+
+html, body, .app {
+  height: 100%;
+}
